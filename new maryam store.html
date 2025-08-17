@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam's Dress Store</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4b3b2f;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: beige;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: olive;
+        }
+        .category {
+            display: inline-block;
+            width: 22%;
+            margin: 1%;
+            background-color: #3b2f2f;
+            padding: 1px;
+            text-align: center;
+        }
+        .category img {
+            width: 250px;
+            height:auto;
+        }
+        .review {
+            background-color: #2f2f2f;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .stars {
+            color: gold;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #4b3b2f;
+    
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maryam's Dress Store</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Maryam's Dress Store</h2>
+        <p>Your one-stop shop for stylish and trendy dresses.</p>
+        <button>Sign In</button>
+        <button>Login</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We offer premium quality dresses for every occasion. Our designs are inspired by the latest fashion trends with a focus on comfort and elegance.</p>
+    </section>
+
+    <section id="categories">
+        <h2>Our Categories</h2>
+        <div class="category">
+            <img src="casual.image.webp" alt="Casual Dresses">
+            <p>Casual Dresses</p>
+        </div>
+        <div class="category">
+            <img src="formal.jpg" alt="Formal Dresses">
+            <p>Formal Dresses</p>
+        </div>
+        <div class="category">
+            <img src="western.image.webp" alt="Western Dresses">
+            <p>Western Dresses</p>
+        </div>
+        <div class="category">
+            <img src="party.image.webp" alt="Party Wear">
+            <p>Party Wear</p>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p><strong>Ayesha</strong>: Loved the quality and the fit! Will definitely shop again.</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review">
+            <p><strong>Sara</strong>: Elegant designs and very comfortable material. Highly recommend!</p>
+            <div class="stars">★★★★☆</div>
+        </div>
+        <div class="review">
+            <p><strong>Zara</strong>: Amazing customer service and quick delivery.</p>
+            <div class="stars">★★★★★</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br>
+            <label>Email:</label><br>
+            <input type="email" name="email"><br>
+            <label>Message:</label><br>
+            <textarea name="message"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Maryam's Dress Store</p>
+    </footer>
+</body>
+</html>
